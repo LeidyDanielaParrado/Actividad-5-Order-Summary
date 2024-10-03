@@ -1,0 +1,63 @@
+.card {
+	h1 {
+		font-size: 20px;
+		font-weight: 800;
+        color: #263a6e;
+	}
+
+	.description {
+		font-size: 12px;
+        font-weight: 500;
+		color: gray;
+        margin: 10px 20px;
+	}
+
+	.pricing_section {
+		background-color: #f5f7ff;
+		border-radius: 12px;
+		padding:  25px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin: 0 auto ;
+		width: 100%;
+
+		.img {
+			height: auto;
+			width: 40px;
+			margin: 0;
+		}
+
+		.text {
+			h2 {
+				padding: 0;
+				font-size: 12px;
+				color: #263a6e;
+			}
+            p {
+                font-size: 12px;
+                margin: 0;
+                color: grey;
+            }
+		}
+
+		.change_btn {
+			background: transparent;
+			border: none;
+			color: #291acb;
+			font-weight: bold;
+			cursor: pointer;
+            font-size: 12px;
+            padding: 10px;
+            text-decoration: underline;
+
+			&:hover {
+				color: hsl(245, 77%, 60%);
+                text-decoration: none;
+			}
+		}
+	}
+
+    border-radius: 12px;
+    overflow: hidden;
+}
